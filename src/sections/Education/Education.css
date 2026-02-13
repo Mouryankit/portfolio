@@ -8,7 +8,7 @@
 .education-heading {
   font-size: 3rem;
   font-weight: 700;
-  color: black;
+  color: #38bdf8;
   margin-bottom: 64px;
 }
 
@@ -22,6 +22,9 @@
 }
 
 .education-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 40px;
   border-radius: 20px;
   background: #020617;
@@ -48,13 +51,14 @@
 
 .education-duration, .education-percentage {
   font-size: 0.95rem;
-  color: #94a3b8;
+  color: #e5e7eb;
 }
 
 
 .education-description {
-  /* line-height: 1.8; */
-  color: #cbd5f5;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  text-align: justify;
 }
 
 /* Mobile */

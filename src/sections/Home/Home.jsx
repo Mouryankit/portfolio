@@ -5,6 +5,7 @@ import Typed from "../../components/Typed/Typed.jsx";
 import { FaHome, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import MyImage from "../../assets/images/Ankit_Image.jpg";
+import MyResume from "../../assets/resume/Ankit_mourya_resume.pdf";
 
 const Home = () => {
   const roles = [
@@ -41,8 +42,8 @@ const Home = () => {
             <a href="#projects" className="primary-btn">
               View Projects
             </a>
-            <a href="/src/assets/resume/Ankit_mourya_resume.pdf" className="secondary-btn" download>
-              Download Resume
+            <a href={MyResume} className="secondary-btn" target="_blank">
+              view Resume
             </a>
           </div>
 

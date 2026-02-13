@@ -48,6 +48,7 @@
   color: #cbd5e1;
   line-height: 1.6;
   margin-bottom: 15px;
+  text-align: justify;
 }
 
 .availability {
@@ -210,6 +211,10 @@
   .social-links{
       justify-content: center;
   }
+  
+.home-description {
+  text-align: center;
+}
 }
 
 /* smooth entry animation */

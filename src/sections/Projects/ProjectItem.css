@@ -1,9 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 .project-item {
     display: grid;
     grid-template-columns: 0.9fr 1.1fr;
     gap: 64px;
     align-items: center;
-    padding: 48px;
+    padding: 2.5rem;
     border-radius: 24px;
     background: #020617;
     border: 1px solid rgba(56, 189, 248, 0.12);
@@ -43,6 +47,7 @@
     line-height: 1.8;
     color: #cbd5f5;
     margin-bottom: 24px;
+    text-align: justify;
 }
 
 /* Tech */
@@ -93,14 +98,33 @@
 /* 📱 Mobile */
 @media (max-width: 940px) {
 
-    .project-item,
-    .project-item:nth-child(even) {
+    .project-item {
         grid-template-columns: 1fr;
-        gap: 32px;
-        padding: 50px 50px;
+        gap: 24px;
+        padding: 2.5rem;   /* FIXED */
     }
 
     .project-content {
         max-width: 100%;
     }
 }
+
+
+@media (max-width: 500px) {
+
+    .project-item {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 2rem;   /* FIXED */
+    }
+
+    .project-content {
+        max-width: 100%;
+    }
+
+    .project-text{
+        font-size: 0.8rem;
+    }
+}
+
+
