@@ -154,3 +154,11 @@
   }
 }
 
+@media (max-width:370px) {
+  .contact-info{
+    font-size: 0.8rem;
+  }
+  .contact-info-title{
+    font-size:0.9rem;
+  }
+}

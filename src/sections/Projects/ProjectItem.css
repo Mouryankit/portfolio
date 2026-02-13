@@ -127,4 +127,10 @@
     }
 }
 
+@media (max-width:370px) {
+
+    .project-title{
+        font-size: 1.5rem;
+    }
+}
 

@@ -5,6 +5,7 @@
   width: 100%;
   z-index: 1000;
   background-color: #020617;
+  border-bottom: 5px solid #0f172a;
 }
 
 /* Navbar container */
