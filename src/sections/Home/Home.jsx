@@ -4,7 +4,7 @@ import "./Home.css";
 import Typed from "../../components/Typed/Typed.jsx";
 import { FaHome, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-
+import MyImage from "/src/assets/images/Ankit_Image.jpg";
 
 const Home = () => {
   const roles = [
@@ -67,7 +67,7 @@ const Home = () => {
         <div className="home-right">
           <div className="profile-card">
             <div className="profile-image">
-              <img src="/src/assets/images/Ankit Image.jpg" alt="Profile" />
+              <img src={MyImage} alt="Profile" />
             </div>
             <p className="profile-para">MERN Stack Developer</p>
           </div>
