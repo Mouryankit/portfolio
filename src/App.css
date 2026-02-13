@@ -1,0 +1,13 @@
+
+.app-main{
+  background-color: #0f172a;
+  padding-top: 120px;
+}
+.section-icon {
+  margin-right: 12px;
+  font-size: 3rem;
+  color: #38bdf8;
+  vertical-align: top;
+  transition: 0.3s ease;
+  animation: floatIcon 3s ease-in-out infinite;
+}

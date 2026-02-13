@@ -1,0 +1,61 @@
+.footer {
+  background: #020617;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Brand */
+.footer-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.footer-tagline {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+/* Social icons */
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socials a {
+  font-size: 1.4rem;
+  color: #cbd5f5;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #38bdf8;
+  transform: translateY(-2px);
+}
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 16px 24px;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  border-top: 1px solid rgba(56, 189, 248, 0.1);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+}

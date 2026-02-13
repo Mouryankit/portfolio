@@ -1,0 +1,30 @@
+src/
+│
+├── assets/
+│   ├── images/
+│   │   └── logo.png
+│   └── icons/
+│
+├── components/
+│   ├── Navbar/
+│   │   ├── Navbar.jsx
+│   │   ├── Navbar.css
+│   │   └── NavbarData.js   (optional)
+│   │
+│   │
+│   └── Footer/
+│       ├── Footer.jsx
+│       └── Footer.css
+│
+├── sections/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Projects.jsx
+│   └── Contact.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+

@@ -1,0 +1,88 @@
+
+.education-container {
+  max-width: 1200px;
+  padding: 5rem 4rem;
+  margin: 0 auto;
+}
+
+.education-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 64px;
+}
+
+.education-list {
+  display: grid;
+  gap: 2rem;
+}
+
+.education-heading span {
+  color: #38bdf8;
+}
+
+.education-card {
+  padding: 40px;
+  border-radius: 20px;
+  background: #020617;
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-8px);
+  border-color: #38bdf8;
+}
+
+.education-title {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  margin-bottom: 8px;
+}
+
+.education-college {
+  font-size: 1.1rem;
+  color: #cbd5f5;
+  margin-bottom: 4px;
+}
+
+.education-duration, .education-percentage {
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+
+.education-description {
+  /* line-height: 1.8; */
+  color: #cbd5f5;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .education-heading {
+    font-size: 2.4rem;
+  }
+
+  .education-card {
+    padding: 28px;
+  }
+}
+
+
+/* entry effect */
+.education-container {
+  max-width: 1200px;
+  padding: 6rem 4rem;
+  margin: 0 auto;
+
+  opacity: 0;
+  transform: translateY(50px);
+  animation: eduFade 2s ease forwards;
+}
+
+@keyframes eduFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
