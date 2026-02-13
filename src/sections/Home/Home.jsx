@@ -4,7 +4,7 @@ import "./Home.css";
 import Typed from "../../components/Typed/Typed.jsx";
 import { FaHome, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import MyImage from "/src/assets/images/Ankit_Image.jpg";
+import MyImage from "../../assets/images/Ankit_Image.jpg";
 
 const Home = () => {
   const roles = [
