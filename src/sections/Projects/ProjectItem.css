@@ -21,6 +21,7 @@
 
 /* Media */
 .project-media {
+    height: auto;
     width: 100%;
 }
 
@@ -95,13 +96,25 @@
     width: 100%;
 }
 
+@media (min-width: 940px) and (max-width: 1150px) {
+    .project-item{
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        gap: 2rem;
+    }
+    .project-text{
+        font-size: 0.8rem;
+    }
+}
+
+
 /* 📱 Mobile */
 @media (max-width: 940px) {
 
     .project-item {
         grid-template-columns: 1fr;
         gap: 24px;
-        padding: 2.5rem;   /* FIXED */
+        padding: 3rem;   /* FIXED */
     }
 
     .project-content {
@@ -110,7 +123,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     .project-item {
         grid-template-columns: 1fr;
