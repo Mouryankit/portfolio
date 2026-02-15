@@ -11,7 +11,7 @@ const About = () => {
     <section id="about" className="about">
       <div className="about-container">
 
-        <h2 className="about-heading">
+        <h2 className="about-heading section-heading">
           <FaUser className="section-icon" />&nbsp;
           About <span>Me . .</span>
         </h2>

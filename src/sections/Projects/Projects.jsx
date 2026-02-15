@@ -27,7 +27,7 @@ const Projects = () => {
     },
     {
       index:"2",
-      title: "Wandurlust",
+      title: "Wanderlust",
       description:
         "Wanderlust is a full-stack travel web application built using MongoDB, Node.js, and Express, following the MVC architecture. The platform allows users to explore and discover various travel destinations with a clean and responsive UI designed using Bootstrap. Authentication and session management were implemented using Passport.js, ensuring secure user login and authorization",
       tech: ["Node.js", "Express", "MongoDB", "Bootstrap", "Passport.js", "MVC"],
@@ -60,7 +60,7 @@ const Projects = () => {
   return (
     <section id="projects" className="projects">
       <div className="projects-container">
-        <h2 className="projects-heading">
+        <h2 className="projects-heading section-heading">
           <FaLaptopCode className="section-icon" />&nbsp;
           My <span>Projects . .</span>
         </h2>

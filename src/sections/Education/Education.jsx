@@ -38,7 +38,7 @@ const Education = () => {
   return (
     <section id="education" className="education">
       <div className="education-container">
-        <h2 className="education-heading">
+        <h2 className="education-heading section-heading">
           <FaGraduationCap className="section-icon"/>&nbsp;
           My <span>Education . .</span>
         </h2>

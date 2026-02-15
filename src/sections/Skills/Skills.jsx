@@ -76,7 +76,7 @@ const Skills = () => {
   return (
     <div className="skills-container" id="skills">
 
-      <h2 className="skills-heading">
+      <h2 className="skills-heading section-heading">
         <FaCode className="section-icon" /> &nbsp;
         My <span>Skills . .</span>
       </h2>

@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="contact-container">
 
         {/* Heading */}
-        <h2 className="contact-heading">
+        <h2 className="contact-heading section-heading">
           <FaEnvelope className="section-icon" />&nbsp;
           Get In <span>Touch . .</span>
         </h2>
