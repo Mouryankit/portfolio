@@ -1,16 +1,75 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This is my **personal portfolio website** built using React. The website showcases my projects, skills, and information about me as a developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of this project is to present my work and provide a platform where visitors can explore my development projects and learn more about my technical skills.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Modern and responsive user interface
+* About section with personal introduction
+* Projects section showcasing my work
+* Skills and technologies section
+* Contact section for reaching out
+* Smooth navigation between sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+### Frontend
+
+* React
+* JavaScript
+* HTML
+* CSS
+
+---
+
+## Sections of the Website
+
+* **Home** – Introduction and overview
+* **About** – Information about me
+* **Projects** – Showcase of my development projects
+* **Skills** – Technologies and tools I work with
+* **Contact** – Ways to connect with me
+
+---
+
+## Projects Included
+
+Some of the projects showcased in the portfolio include:
+
+* Wanderlust Travel Listing App
+* Spotify Clone
+* IWT Mini Projects
+* Other web development projects
+
+---
+
+## Learning Objectives
+
+Through this project, I practiced:
+
+* Building modern UI using React
+* Creating reusable components
+* Managing project structure in React
+* Designing responsive layouts
+* Showcasing projects in a professional way
+
+---
+
+## Author
+
+**Ankit Mourya**
+B.Tech CSE Student
+
+---
+
+## License
+
+This project is created for **learning and personal portfolio purposes**.
