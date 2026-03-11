@@ -1,60 +1,55 @@
-
+.projects {
+  background-color: var(--bg-main);
+}
 
 .projects-container {
   max-width: 1200px;
-  padding: 5rem 4rem;
+  padding: 8rem 4rem;
   margin: 0 auto;
 }
 
 .projects-heading {
-  font-size: 3rem;
-  font-weight: 700;
-  color: #38bdf8;
-  margin-bottom: 16px;
-}
-
-.projects-heading span {
-  color: #38bdf8;
+  margin-bottom: 1rem;
 }
 
 .projects-description {
-  max-width: 640px;
-  color: #cbd5f5;
-  line-height: 1.7;
-  margin-bottom: 4rem;
+  max-width: 700px;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 5rem;
 }
 
 .projects-list {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 3rem;
 }
 
-/* Mobile */
+/* Tablet & Mobile */
+@media (max-width: 1024px) {
+  .projects-container {
+    padding: 6rem 2rem;
+  }
+}
+
 @media (max-width: 768px) {
-  .projects-heading {
-    font-size: 2.4rem;
-  }
-
   .projects-description {
-    margin-bottom: 64px;
+    margin-bottom: 3rem;
+    font-size: 1rem;
   }
-
+  
   .projects-list {
-    gap: 72px;
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
 
-
-/* entry animation */
+/* Entry Animation */
 .projects-container {
-  max-width: 1200px;
-  padding: 6rem 4rem;
-  margin: 0 auto;
-
   opacity: 0;
   transform: translateY(50px);
-  animation: projectFade 2s ease forwards;
+  animation: projectFade 1s cubic-bezier(0.23, 1, 0.32, 1) forwards;
 }
 
 @keyframes projectFade {

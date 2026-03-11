@@ -5,13 +5,8 @@ import SpotifyImage from "../../assets/images/spotify_clone.png";
 import WandurlustImage from "../../assets/images/Wandurlust.png";
 import PortfolioImage from "../../assets/images/portfolio.png";
 import MinProjectImage from "../../assets/images/iwt_miniproject.PNG";
-
 import { FaLaptopCode } from "react-icons/fa";
 
-<h2 className="projects-heading">
-  <FaLaptopCode className="section-icon" />
-  Featured <span>Projects</span>
-</h2>
 
 const Projects = () => {
   const projects = [

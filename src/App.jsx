@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <main className="app-main" style={{paddingTop: 100}}>
+      <main className="app-main">
         <Home />
         <hr></hr>
         <About />

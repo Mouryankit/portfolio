@@ -1,25 +1,69 @@
-
-.app-main{
-  background-color: #0f172a;
-  padding-top: 120px;
+.app-main {
+  background-color: var(--bg-main);
+  padding-top: 80px;
+  /* Aligned with navbar height */
 }
+
+hr {
+  border: 0;
+  height: 3px;
+  background: linear-gradient(to right, transparent, var(--border-color), transparent);
+  margin: 0;
+}
+
+/* Global Section Utility Classes */
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.section-heading span {
+  color: var(--accent-primary);
+}
+
 .section-icon {
-  margin-right: 12px;
-  font-size: 3rem;
-  color: #38bdf8;
-  vertical-align: top;
-  transition: 0.3s ease;
-  animation: floatIcon 3s ease-in-out infinite;
+  font-size: 2.5rem;
+  color: var(--accent-primary);
+  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.3));
 }
 
-@media (max-width: 500px) {
-  .section-heading {
-    font-size: 1.5rem;
+@keyframes floatIcon {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
   }
 }
 
-@media (max-width: 400px){
-  html{
-    font-size: 15px;
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .section-heading {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-icon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-heading {
+    font-size: 1.5rem;
   }
 }

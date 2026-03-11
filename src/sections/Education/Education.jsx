@@ -48,8 +48,10 @@ const Education = () => {
             <div key={item.id} className="education-card">
               <h3 className="education-title">{item.degree}</h3>
               <p className="education-college">{item.institute}</p>
-              <p className="education-duration">{item.duration}</p>
-              <p className="education-percentage">{item.percentage}</p>
+              <div className="education-info-row">
+                <span className="education-duration">{item.duration}</span>
+                <span className="education-percentage">{item.percentage}</span>
+              </div>
               <p className="education-description">
                 {item.description}
               </p>
