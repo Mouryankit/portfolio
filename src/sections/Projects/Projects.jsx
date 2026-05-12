@@ -22,7 +22,7 @@ const Projects = () => {
       live: "https://wanderlust-36j4.onrender.com",
     },
     {
-      index:"4",
+      index:"2",
       title: "Portfolio",
       description:
         "This project is a personal portfolio website built using React and styled with CSS. The portfolio showcases my skills, projects, and experience in a clean and modern design. It features sections for home, about, skills, projects, and education, providing a comprehensive overview of my professional background. The website is fully responsive, ensuring an optimal viewing experience across different devices.",
@@ -32,7 +32,7 @@ const Projects = () => {
       live: "https://mouryankit.github.io/portfolio/",
     },
     {
-      index:"2",
+      index:"3",
       title: "Spotify Clone",
       description:
         "This project is a frontend clone of Spotify built with HTML and CSS. It focuses on practicing web page structure, layout design, and responsive UI. The interface mimics Spotify’s look with a sidebar, playlist section, song cards, and music player area. It’s a simple yet polished project for learning how to recreate a modern music app experience using only frontend code.",
@@ -42,7 +42,7 @@ const Projects = () => {
       live: "https://mouryankit.github.io/Spotify_Clone/",
     },
     {
-      index:"3",
+      index:"4",
       title: "Wanderlust",
       description:
         "Wanderlust is a full-stack travel web application built using MongoDB, Node.js, and Express, following the MVC architecture. The platform allows users to explore and discover various travel destinations with a clean and responsive UI designed using Bootstrap. Authentication and session management were implemented using Passport.js, ensuring secure user login and authorization",
