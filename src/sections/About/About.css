@@ -19,7 +19,7 @@
 
 .about-container {
   max-width: 1200px;
-  padding: 10rem 4rem;
+  padding: 4rem 4rem;
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -86,7 +86,7 @@
 
 @media (max-width: 768px) {
   .about-container {
-    padding: 6rem 2rem;
+    padding: 2rem 2rem;
   }
   
   .about-highlights {
