@@ -7,7 +7,7 @@
 hr {
   border: 0;
   height: 4px;
-  background: linear-gradient(to right, transparent, var(--border-color), transparent);
+  background: var(--border-color);
   margin: 0;
 }
 

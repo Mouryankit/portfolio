@@ -22,12 +22,8 @@
 .portfolio-tag a {
   font-size: 1.75rem;
   font-weight: 800;
-  color: var(--text-primary);
+  color: var(--accent-primary);
   letter-spacing: -0.5px;
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
   transition: var(--transition-smooth);
 }
 

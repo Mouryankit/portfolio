@@ -12,7 +12,7 @@
   left: -5%;
   width: 30%;
   height: 40%;
-  background: radial-gradient(circle, rgba(56, 189, 248, 0.05) 0%, transparent 70%);
+  background: transparent;
   z-index: 0;
   pointer-events: none;
 }
@@ -58,7 +58,7 @@
 .about-card:hover {
   transform: translateY(-12px);
   border-color: var(--accent-primary);
-  background: rgba(56, 189, 248, 0.03);
+  background: var(--bg-card);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 

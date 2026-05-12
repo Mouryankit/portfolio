@@ -139,13 +139,13 @@
   padding: 1rem 2.5rem;
   border-radius: 12px;
   border: none;
-  background: var(--accent-gradient);
+  background: var(--accent-primary);
   color: white;
   font-size: 1.1rem;
   font-weight: 700;
   cursor: pointer;
   transition: var(--transition-smooth);
-  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.4);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.2);
 }
 
 .contact-btn:hover {

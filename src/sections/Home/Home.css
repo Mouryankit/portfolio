@@ -9,15 +9,7 @@
 
 /* Background elements for depth */
 .home::before {
-  content: '';
-  position: absolute;
-  top: -10%;
-  right: -5%;
-  width: 40%;
-  height: 60%;
-  background: radial-gradient(circle, rgba(56, 189, 248, 0.08) 0%, transparent 70%);
-  z-index: 0;
-  pointer-events: none;
+  display: none;
 }
 
 .home-container {
@@ -83,16 +75,16 @@
 
 .primary-btn {
   padding: 0.875rem 2rem;
-  background: var(--accent-gradient);
+  background: var(--accent-primary);
   color: white;
   border-radius: 12px;
   font-weight: 600;
-  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.4);
+  box-shadow: 0 4px 14px rgba(56, 189, 248, 0.15);
 }
 
 .primary-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.6);
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.15);
 }
 
 .secondary-btn {
@@ -189,7 +181,7 @@
   border-radius: 50%;
   margin: 0 auto 2rem;
   padding: 6px;
-  background: linear-gradient(135deg, var(--accent-primary));
+  background: var(--accent-primary);
   border: 1px solid var(--glass-border);
 }
 
@@ -219,15 +211,8 @@
 }
 
 
-/* Gradient text */
 .gradient-text {
-  background: var(--accent-gradient);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  animation: shine 4s linear infinite;
+  color: var(--accent-primary);
 }
 
 
