@@ -9,7 +9,7 @@ const educationData = [
     degree: "Bachelor of Technology – Computer Science Engineering",
     institute: "Acropolis Institute of Technology and Research Indore - RGPV University",
     duration: "2023 – 2027",
-    percentage: "6.9 CGPA",
+    percentage: "7.07 CGPA",
     description:
       "Currently pursuing B.Tech in Computer Science with a strong focus on Data Structures, Algorithms, Web Development, and Software Engineering. Actively building real-world projects and improving problem-solving skills.",
   },
