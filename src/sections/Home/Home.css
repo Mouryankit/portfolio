@@ -35,7 +35,7 @@
   font-weight: 800;
   color: var(--text-primary);
   line-height: 1.1;
-  /* margin-bottom: 1.5rem; */
+  margin-bottom: 1rem;
 }
 
 .home-title span {
@@ -46,14 +46,14 @@
   font-size: 1.75rem;
   font-weight: 600;
   color: var(--accent-primary);
-  /* margin-bottom: 1.5rem; */
+  margin-bottom: 1.2rem;
 }
 
 .home-description {
   font-size: 1.125rem;
   color: var(--text-secondary);
   line-height: 1.7;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   max-width: 600px;
   text-align : justify;
 }
@@ -61,7 +61,7 @@
 .availability {
   font-weight: 500;
   color: #22c55e;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   gap: 8px;
