@@ -43,7 +43,7 @@ const Home = () => {
               View Projects
             </a>
             <a href={MyResume} className="secondary-btn" target="_blank">
-              view Resume
+              View Resume
             </a>
           </div>
 
@@ -56,11 +56,11 @@ const Home = () => {
 
           {/* Tech Stack */}
           <div className="home-tech">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>MongoDB</span>
-            <span>ExpressJs</span>
-            <span>C++</span>
+            <span className="tech-item">React</span>
+            <span className="tech-item">Node.js</span>
+            <span className="tech-item">MongoDB</span>
+            <span className="tech-item">ExpressJs</span>
+            <span className="tech-item">C++</span>
           </div>
         </div>
 

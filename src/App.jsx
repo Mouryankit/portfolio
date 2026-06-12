@@ -3,6 +3,7 @@ import Home from "./sections/Home/Home.jsx";
 import About from "./sections/About/About.jsx";
 import Skills from "./sections/Skills/Skills.jsx";
 import Projects from "./sections/Projects/Projects.jsx";
+import Certificate from "./sections/Certificate/Certificate.jsx";
 import Education from "./sections/Education/Education.jsx";
 import Contact from "./sections/Contact/Contact.jsx";
 import Footer from "./components/Footer/Footer.jsx";
@@ -20,6 +21,8 @@ function App() {
         <Skills />
         <hr></hr>
         <Projects />
+        <hr></hr>
+        <Certificate />
         <hr></hr>
         <Education />
         <hr></hr>

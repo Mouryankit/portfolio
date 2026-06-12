@@ -81,6 +81,14 @@
   .navbar {
     padding: 1rem 2rem;
   }
+
+  .nav-links {
+    gap: 1.25rem;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 830px) {

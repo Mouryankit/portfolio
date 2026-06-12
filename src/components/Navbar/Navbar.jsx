@@ -15,6 +15,7 @@ const Navbar = () => {
             <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
             <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
             <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
+            <li><a href="#certificate" onClick={() => setMenuOpen(false)}>Certificates</a></li>
             <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
             <li><a href="https://github.com/Mouryankit" target="_blank">Github</a></li>
             <li><a href="https://www.linkedin.com/in/ankit-mourya-7a3185291">LinkedIn</a></li>
