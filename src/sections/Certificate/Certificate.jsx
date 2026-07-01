@@ -13,6 +13,7 @@ import DsaPwImg from "../../assets/certificate/DSA_CPP_PHYSICS_WALLAH.png";
 import DsaApnaImg from "../../assets/certificate/DSA_JAVA_APNA_COLLEGE.png";
 import UnstopImg from "../../assets/certificate/UNSTOP_PARTICIPATION_CERTIFICATE.png";
 import WebDevApnaImg from "../../assets/certificate/WEB_DEVELOPMENT_APNA_COLLEGE.png";
+import CivilWar from "../../assets/certificate/CIVIL_WAR_2.0.png";
 
 import "./Certificate.css"; 
 
@@ -126,7 +127,18 @@ const certificatesData = [
     description: "Participation in national programming contests and online coding assessments.",
     image: UnstopImg,
     link: UnstopImg,
+  },
+  {
+    id: 12,
+    title: "Civil War 2.0",
+    issuer: "AITR Indore",
+    date: "2025",
+    category: "hackathons",
+    description: "Certificate of Recognition awarded for presenting one of the Best Projects at Civil War 2.0.",
+    image: CivilWar,
+    link: CivilWar,
   }
+
 ];
 
 export default function Certificate() {
